@@ -15,13 +15,13 @@ Make sure you have the above requirements satisified.
 
 
 # Usage
-There are multiple ways to run this application.
+There are two ways to run this application.
 First step is to clone the repository
 ```bash
 git clone https://github.com/gadeRaghav/todo-app.git
 ```
 
-## 1. Run from ubuntu terminal as localhost
+### 1. Run from ubuntu terminal as localhost
 
 
 
@@ -43,8 +43,11 @@ python3.6 manage.py runserver --insecure 0.0.0.0:8000
 and access the app from [http://localhost:8000](http://localhost:8000) !!
 
 
-Instead of going through the above steps, you can simply run the app in docker container
-## 2. Run using docker
+
+
+**Instead of going through the above steps, you can simply run the app in docker container
+
+### 2. Run using docker
 
 
 
