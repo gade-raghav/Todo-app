@@ -45,7 +45,7 @@ and access the app from [http://localhost:8000](http://localhost:8000) !!
 
 
 
-**Instead of going through the above steps, you can simply run the app in docker container
+**Instead of going through the above steps, you can simply run the app in docker container**
 
 ### 2. Run using docker
 
