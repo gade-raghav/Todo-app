@@ -9,11 +9,13 @@ Backend  : written using python-django framework
 Frontend : written using reactjs
 
 ## Requirements
-* docker (not necessary)
+
 * [python-3.6](https://www.python.org/downloads/release/python-3611/) 
 * [node-12.16.1>](https://nodejs.org/en/download/)
 
 Make sure you have the above requirements satisified.
+
+* [docker](https://docs.docker.com/engine/install/ubuntu/) (not necessary)
 
 
 # Usage
