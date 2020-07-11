@@ -1,9 +1,11 @@
 # To-do
 
 To-do is a simple django application which helps us to keep a track of everyday tasks.
+
 This application has been written for learning purpose and is not very productive.
 
 Backend  : written using python-django framework
+
 Frontend : written using reactjs
 
 ## Requirements
