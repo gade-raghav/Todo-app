@@ -9,7 +9,8 @@ Frontend : written using reactjs
 ## Requirements
 * docker (not necessary)
 * [python-3.6](https://www.python.org/downloads/release/python-3611/) 
-* node-12.16.1>
+* [node-12.16.1>](https://nodejs.org/en/download/)
+
 Make sure you have the above requirements satisified.
 
 
@@ -20,7 +21,8 @@ First step is to clone the repository
 git clone https://github.com/gadeRaghav/todo-app.git
 ```
 
-##1. Run from ubuntu terminal as localhost
+## 1. Run from ubuntu terminal as localhost
+
 
 
 Switch to to-do directory and install the requirements from requirements.txt.(django, djangorestframework, django-cors-headers)
@@ -30,19 +32,21 @@ pip3 install -r requirements.txt
 ```
 To set-up frontend switch to to-do/frontend direcotry and run the following command.(It correctly bundles React in production mode and optimizes the build for the best performance.)
 ```bash
-cd to-do/todo/frontend
+cd to-do/frontend
 npm run build
 ```
-Finally switch to to-do/todo directory and run the server
+Finally switch to to-do/base directory and run the server
 ```bash
-cd to-do/todo
+cd to-do/base
 python3.6 manage.py runserver --insecure 0.0.0.0:8000
 ```
 and access the app from [http://localhost:8000](http://localhost:8000) !!
 
 
 Instead of going through the above steps, you can simply run the app in docker container
-##2. Run using docker
+## 2. Run using docker
+
+
 
 Switch to to-do directory and run docker build
 ```bash
@@ -56,7 +60,7 @@ and access the app from [http://localhost:8000](http://localhost:8000) !!
 
 
 
-#Acknowledgement
+# Acknowledgement
 
 Thanks to [nikolaik](https://hub.docker.com/u/nikolaik) for python-nodejs docker image.
 
