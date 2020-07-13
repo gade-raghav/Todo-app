@@ -55,6 +55,8 @@ class  App extends React.Component {
       )
   }
 
+  
+
 
   handleChange(e){
 
@@ -99,6 +101,7 @@ class  App extends React.Component {
       },
       body:JSON.stringify(this.state.activeItem)
     }).then((response) =>{
+      this.testUrl()
       this.fetchTasks()
       this.setState({
         activeItem:{
