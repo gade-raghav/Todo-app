@@ -19,13 +19,19 @@ Make sure you have the above requirements satisified.
 
 
 # Usage
-There are two ways to run this application.
-First step is to clone the repository
+
+First clone the repository
 ```bash
 git clone https://github.com/gadeRaghav/todo-app.git
 ```
+There are two ways to run this application.
 
-### 1. Run from ubuntu terminal as localhost
+* [Run from ubuntu terminal](#run-from-ubuntu-terminal) 
+
+* [Run using docker](#run-using-docker)
+
+
+### Run from ubuntu terminal
 
 
 
@@ -51,7 +57,7 @@ and access the app from [http://localhost:8000](http://localhost:8000) !!
 
 **Instead of going through the above steps, you can simply run the app in docker container**
 
-### 2. Run using docker
+### Run using docker
 
 
 
